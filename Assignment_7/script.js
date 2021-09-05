@@ -33,7 +33,7 @@ button.addEventListener('click', function () {
                 body.style.backgroundImage='url("https://media3.giphy.com/media/QH6ytk1V9IExi/200w.webp?cid=ecf05e479ond1yoc5y9eflxc1v69f5y3p6d78syl60z7opy0&rid=200w.webp&ct=g")'
                 body.style.backgroundSize="cover";
             }
-            else if(descValue.includes('mist')|| descValue.includes('ogg')){
+            else if(descValue.includes('mist')|| descValue.includes('ogg') || descValue.includes('haze')){
                 icon.innerHTML="<i class=\"fas fa-smog\"></i>";
                 body.style.backgroundImage='url("https://media4.giphy.com/media/yhZr5Wx7CBFbq/200.webp?cid=ecf05e47yfae4ie3r31yfblw5jv390ibbo3s2j833sufgvj5&rid=200.webp&ct=g")';
                 body.style.backgroundSize="cover";
